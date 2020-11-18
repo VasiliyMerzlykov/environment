@@ -6,6 +6,7 @@
     "start": "webpack-dev-server --mode production --open",
     "build": "webpack",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest --passWithNoTests",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
